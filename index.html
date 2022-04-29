@@ -14,7 +14,7 @@
     <div id="app">
         <h2>Lista mail:</h2>
         <ul class="mails">
-            <!--ciclo for che crea le li in base all'array random_mails, e con il v-if gli dico che deve essere visibile solo se la lunghezza dell'array random_mails è = a 10 -->
+            <!--ciclo for che crea le li in base all'array random_mails, e con il v-show gli dico che deve essere visibile solo se la lunghezza dell'array random_mails è = a 10 -->
             <li v-show="random_mails.length === 10" v-for="mail in random_mails">{{mail}}</li>
         </ul>
         <!-- /.mails -->
